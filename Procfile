@@ -1,1 +1,1 @@
-web: python v5.py 
+web: python midannarverkefni.py 
