@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+
+   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.border{
+  background-color: grey;
+}
+
+
+
+.header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  
+  
+ 
+  text-align: left;
+  background: deepskyblue;
+  
+  
+}
+
+
+.row {
+    display: flex;
+}
+
+
+
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+img{
+  width: 100%;
+}
+
+
+
+/*
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+  background: hotpink;
+  text-align: center;
+}*/
+
+
+
+
+.border{
+  border: solid 1px;
+  padding: 10px;
+}
+
+
+
+.main{
+    height: 750px;
+}
+
+a{
+  font-size: 25px;
+}
+
+a:hover{
+  opacity: 0.4;
+}
+
+
+
+
+
