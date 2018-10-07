@@ -1,7 +1,7 @@
 
 import bottle
 from bottle import *
-
+bottle.debug(True)
 import json
 import urllib.request, json
 
@@ -53,7 +53,6 @@ def villa(error):
 
 
 
-
-run(host="localhost", port=8080, debug=True)
-#run(host="0.0.0.0", port=argv[1], debug=True, reloader=True)
+#run(debug=True)
+run(host="0.0.0.0", port=os.environ.get('PORT'))
 
